@@ -1,0 +1,15 @@
+{
+  "name": "mathsone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "srinivash",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/packager": "^18.1.3",
+    "electron": "^28.2.1"
+  }
+}

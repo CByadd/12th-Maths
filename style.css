@@ -1,0 +1,120 @@
+
+  
+  .quiz-container {
+    display: none;
+  }
+  
+
+
+
+.header{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    margin-top: 50px;
+    color: white;
+}
+  .cont{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    
+
+  }
+
+  .cont a{
+    padding: 20px;
+    background-color: rgb(96, 84, 84);
+    margin: 50px;
+ height: 200px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 9px;
+    text-decoration: none;
+    transition: ease-in-out;
+    transition-duration: .2s;
+    border:none;
+    -webkit-box-shadow: -1px 3px 50px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 3px 50px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 3px 50px 0px rgba(0,0,0,0.75);
+
+  }
+
+  .cont a:hover{
+    scale: 1.1;
+  }
+
+  body{
+    background: rgb(27,60,143);
+    background: linear-gradient(0deg, rgba(27,60,143,1) 0%, rgba(31,159,154,1) 100%);
+    background-size: contain;
+    margin: 10px;
+  }
+
+  .b{
+    background: url("./1.jpg") no-repeat;
+    background-size: cover;
+  }
+
+  .b1{
+    background: url("./v1.png") no-repeat;
+    background-size: cover;
+    
+  }
+  .b2{
+    background: url("./v2.png") no-repeat;
+    background-size: cover;
+    
+  }
+  .b4{
+    background: url("./f.jpg") no-repeat;
+    background-size: cover;
+    
+  }
+
+
+ 
+
+  @font-face {
+    font-family: 'YourFontName';
+    src: url('../Montserrat-Medium.ttf') format('woff2')
+    /* Add more font formats if needed */
+  }
+  
+  body {
+    font-family: 'YourFontName', sans-serif; /* Use your font for the body text */
+    height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+
+
+  h3{
+
+    background:honeydew;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+  
+    color: black;
+    font-weight: bolder;
+   
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+      height: max-content;
+    }
+
+    .cont {
+     flex-direction: column;
+     width: 100%;
+     
+    }
+  }
