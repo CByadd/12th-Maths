@@ -831,6 +831,9 @@ body{
     pointer-events: none;
     z-index: 1;
     transition: .3s ease;
+    margin-top: 100px;
+    height: 100vh;
+    margin-bottom: 50px;
     
 }      
 
