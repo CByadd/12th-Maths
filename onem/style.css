@@ -831,7 +831,7 @@ body{
     pointer-events: none;
     z-index: 1;
     transition: .3s ease;
-    text-align: center;
+    
 }      
 
 .question-text{
@@ -876,10 +876,12 @@ body{
 }
 .rcom{
     overflow-x: hidden;
+    width: 100%;
     }
 
     .rcom img{
         max-width: 90%;
+        margin: 0;
     }
 .pcon{
     margin-left: 50px;
@@ -898,6 +900,12 @@ body{
     color: #fff;
 }
 
+.percentage-container .score-text{
+
+    
+    margin-left: 50px;
+    padding-top: 20px;
+}
 
 
 }
