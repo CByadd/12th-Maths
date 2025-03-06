@@ -504,7 +504,7 @@ body{
     
     width: 500px;
     background: white;
-    border: 2px solid var(--color);
+    /* border: 2px solid var(--color); */
     border-radius: 6px;
     padding: 20px;
     display: flex;
@@ -632,21 +632,28 @@ body{
 .pcon{
     flex: 1;
     
-    margin-left: 110px;
+    /* margin-left: 110px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .qre{
-    position: absolute;
-    top: 0;
-    left: 42%;
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+width: 100%;
 }
 
 .rcom{
-    height: 450px;
-    width: 500px;
+    height: 100%;
+    width: 90dvw;
     overflow-y: scroll;
     position: relative;
     left:0;
+    margin: 0;
     top: 15%;
     color: #000000;
     margin-top: 50px;
@@ -654,6 +661,7 @@ body{
     padding: 7px;
     border-radius: 10px;
     
+    margin-bottom: 1rem;
     
 }
 
@@ -819,7 +827,7 @@ body{
     width: 100%;
     height: max-content;
     background: white;
-    border: 2px solid  var(--color);
+    /* border: 2px solid  var(--color); */
     border-radius: 6px;
     padding: 20px;
     display: flex;
@@ -879,7 +887,7 @@ body{
 }
 .rcom{
     overflow-x: hidden;
-    width: 100%;
+    /* width: 100%;/ */
     }
 
     .rcom img{
@@ -887,8 +895,8 @@ body{
         margin: 0;
     }
 .pcon{
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px; */
+    /* margin-right: 50px; */
 }
 
 
