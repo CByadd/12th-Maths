@@ -1,4 +1,8 @@
 
+*{
+  margin: 0;
+  padding: 0;
+}
   
   .quiz-container {
     display: none;
@@ -21,18 +25,22 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
-    
+    /* flex-direction: row; */
+    gap: 1rem;
+    margin-top: 3rem;
 
   }
 
   .cont a{
     padding: 20px;
     background-color: rgb(96, 84, 84);
-    margin: 50px;
+    /* margin: 50px; */
  height: 200px;
-    width: 150px;
+    width: 70%;
+    /* margin: 10px; */
     align-items: center;
     justify-content: center;
+    margin-top: 4rem;
     display: flex;
     border-radius: 9px;
     text-decoration: none;
@@ -109,11 +117,14 @@
 
   @media only screen and (max-width: 600px) {
     body {
-      height: max-content;
+      height: 100dvh;
+      overflow: hidden;
     }
 
     .cont {
-     flex-direction: column;
+      display: grid;
+     /* flex-direction: grid; */
+     grid-template-columns: repeat(2, .8fr);
      width: 100%;
      
     }
